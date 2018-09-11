@@ -6,7 +6,7 @@ class Main {
         Scanner y = new Scanner(System.in);
         // prints x var 
         System.out.Println("insert x value");
-        int num1 = x.nextInt
+        int num1 = x.nextInt();
 
     }
 }
