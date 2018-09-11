@@ -15,7 +15,7 @@ class divied {
        // number
 
        
-        double result = x - y;
+        double result = x / y;
         //  Prints results 
          System.out.println(result);
        
