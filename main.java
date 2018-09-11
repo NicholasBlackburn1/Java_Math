@@ -7,6 +7,7 @@ class Main {
         // prints  and reads x var 
         System.out.Println("insert x value");
         int num1 = x.nextInt();
+        // prints and reads y var 
 
     }
 }
