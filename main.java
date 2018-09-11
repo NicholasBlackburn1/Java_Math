@@ -15,7 +15,7 @@ class Main {
         int n1 = Integer.parseInt(num1);
         int n2 = Integer.parseInt(num2;
         double result = n1 + n2;
-
+        //  Prints results 
          System.out.println(result);
        
     }
