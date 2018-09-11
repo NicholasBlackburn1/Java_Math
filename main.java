@@ -8,6 +8,9 @@ class Main {
         System.out.Println("insert x value");
         int num1 = x.nextInt();
         // prints and reads y var 
+        System.out.Println("insert y value");
+        int num2 = y.nextInt();
+        
 
     }
 }
