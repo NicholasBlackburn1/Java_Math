@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Main {
     public static void Main(String[] args){
         // scans for user input
-        int x1, y1 ;
+        int x, y ;
         Scanner in = new Scanner(System.in);
         Scanner in2 = new Scanner(System.in);
         // prints  and reads x var 
@@ -14,9 +14,8 @@ class Main {
         y = in2.nextInt();
        // number
 
-        int n1 = Integer.parseInt(x);
-        int n2 = Integer.parseInt(y);
-        double result = n1 + n2;
+       
+        double result = x + y;
         //  Prints results 
          System.out.println(result);
        
