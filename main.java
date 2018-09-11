@@ -1,27 +1,21 @@
 
 class Main{
     public static void main(String[] args) {
-    Data data = new Data();
-    data.menu();
+        int selection;
+        Scanner input = new Scanner(System.in);
 
-    Scanner scanner = new Scanner(System.in);
-    int choice = scanner.nextInt();
+        /***************************************************/
 
-    switch (choice) {
-        case 1:
-             add();
-            break;
-        case 2:
-            // Perform "encrypt number" case.
-            break;
-        case 3:
-            // Perform "decrypt number" case.
-            break;
-        case 4:
-            // Perform "quit" case.
-            break;
-        default:
-            // The user input an unexpected choice.
+        System.out.println("Nicks Calculator");
+        System.out.println("-------------------------\n");
+        System.out.println("1 - Add ");
+        System.out.println("2 - subtract");
+        System.out.println("3 - muilply");
+        System.out.println("4 - divied");
+        System.out.println("5 - Quit")
+
+        selection = input.nextInt();
+        return selection;    
     }
 }
 }
