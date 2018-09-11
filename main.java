@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Main {
     public static void Main(String[] args){
         // scans for user input
-        int x, y
+        int x, y;
         Scanner x = new Scanner(System.in);
         Scanner y = new Scanner(System.in);
         // prints  and reads x var 
