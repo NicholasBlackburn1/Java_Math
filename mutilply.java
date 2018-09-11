@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class subtract {
+class mutilply {
     public static void main(String[] args){
         // scans for user input
         int x, y ;
@@ -14,7 +14,7 @@ class subtract {
        // number
 
        
-        double result = x - y;
+        double result = x . y;
         //  Prints results 
          System.out.println(result);
        
