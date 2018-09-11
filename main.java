@@ -16,6 +16,7 @@ class Main {
         int n2 = Integer.parseInt(num2;
         double result = n1 + n2;
 
+         System.out.println(result);
        
     }
 }
