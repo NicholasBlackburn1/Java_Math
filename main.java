@@ -12,7 +12,7 @@ class Main{
         System.out.println("2 - subtract");
         System.out.println("3 - muilply");
         System.out.println("4 - divied");
-        System.out.println("5 - Quit")
+        System.out.println("5 - Quitz")
 
         selection = input.nextInt();
         return selection;    
