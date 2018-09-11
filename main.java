@@ -3,15 +3,14 @@ import java.util.Scanner;
 class Main {
     public static void Main(String[] args){
         // scans for user input
-        int x, y;
-        Scanner x = new Scanner(System.in);
-        Scanner y = new Scanner(System.in);
+        int x1, y1 ;
+        Scanner in = new Scanner(System.in);
         // prints  and reads x var 
         System.out.println("insert x value");
-        x.nextInt();
+        in.nextInt();
         // prints and reads y var 
         System.out.println("insert y value");
-        y.nextInt();
+        in.nextInt();
        // number
 
         int n1 = Integer.parseInt(x);
