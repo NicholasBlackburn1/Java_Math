@@ -1,4 +1,4 @@
-import com.googlecode.lanterna
+import com.googlecode.lanterna.*;
 class Main{
     public static void main(String[] args) {
         DefaultTerminalFactory defaultTerminalFactory = new DefaultTerminalFactory();
