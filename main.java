@@ -1,25 +1,27 @@
-
-import java.util.Scanner;
-class Main{
-    public static void main(String[] args)  {
-        // scans for input 
-        Scanner userinput = new Scanner(System.in);
-        
-        // prints menu 
-           System.out.println("JAVA_MATH by NichoalsBlackburn");
-           System.out.println("");
-           System.out.println("pick options 1-4");
-           System.out.println("1 - Add");
-           System.out.println("2 - Subtract");
-           System.out.println("3 - Multiply");
-           System.out.Println("4 - Divided");
-           System.out.println("5 - Exit");
-           x = userinput.nextInt();
-           // options 
-          if (x = 1) {
-            System.out.print("workd");
-          } 
-
-          }
+import jester.*;
+import java.io.IOException;
+class Main extends TApplication {
    
+  public MyApplication() throws Exception {
+    super(BackendType.SWING); // Could also use BackendType.XTERM
+
+    // Create standard menus for File and Window
+    addFileMenu();
+    addWindowMenu();
+
+    // Add a custom window, see below for its code.  The TWindow
+    // constructor will add it to this application.
+    new MyWindow(this);
+    
+}
+
+public static void main(String [] args) {
+    try {
+        MyApplication app = new MyApplication();
+        (new Thread(app)).start();
+    } catch (Throwable t) {
+        t.printStackTrace();
+    }
+}
+}
     }
